@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -22,7 +22,7 @@
  }
 
  .intro{
-    height: 100vh;
+     height: 100vh;
     width: 100%;
     background-color: rgb(24, 7, 7);
     color: aliceblue;
@@ -31,7 +31,13 @@
     text-align: center;
     padding: 250px 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:xx-large;
+    font-size:xx-large; 
+    /* font-family:'Courier New', Courier, monospace;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    background-color:#151b29; */
   
     
 }
@@ -49,4 +55,76 @@
  .intro{
     justify-content: flex-end;
     align-items: center;
-} 
+ }
+.education{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    flex-wrap:wrap;
+    padding-bottom: 3rem;
+    
+}
+.ed{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.college{
+    text-align: left;
+    border: 2px;
+    line-height: 2rem;
+}
+.college img{
+    height: 30%;
+}
+.school img{
+    height: 30%;
+}
+.school{
+    line-height: 2rem;
+    text-align: left;
+}
+.college,.school{
+    box-shadow: rgba(193, 186, 186, 0.24) 0px 3px 8px;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #f7cac9;
+    padding: 1.3rem;
+    
+}
+.school:hover, .college:hover{
+
+        box-shadow: 0 0.8rem 0.7rem rgba(221, 52, 52, 0.3);
+}
+.footer{
+    height: 250px;
+    /* background-color: #515E63; */
+    background-color: #e0876a;
+;
+    text-align: center;
+    color: white;
+}
+.footer img{
+    height: 20px;
+}
+
+.contact-me{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.links-one{
+   padding: 50px;
+   color: white;
+}
+.links-one:hover{
+    color: #000000;
+}
+.icons{
+    height: 10px;
+    padding: 10px;
+    color: rgb(193, 39, 39);
+}
+.icons:hover{
+    color: #000000;
+}
