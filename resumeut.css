@@ -1,50 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
-.navbar-custom{
-    background-color: #515E6300;
-    color: white;
+.navbar-custom {
+  background-color: #515e6300;
+  color: white;
 }
-.navbar-custom a:hover{
-    background-color: #206A5D;
-    color: #206A5D;
+.navbar-custom a:hover {
+  background-color: #206a5d;
+  color: #206a5d;
 }
-.navbar-active{
-     background-color: #515E63; 
-     background-color: #2b3333;
-    color: white;
-    transition: ease 0.25s; 
- } 
- body{
-    background-color: black;
- }
+.navbar-active {
+  background-color: #515e63;
+  background-color: #2b3333;
+  color: white;
+  transition: ease 0.25s;
+}
+body {
+  background-color: black;
+}
 
- .intro{
-     height: 100vh;
-    width: 100%;
-    background-color:#000000;
-    background-size: 100%;
-    color: aliceblue;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 250px 0;
-    font-size:3em; 
-  
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  background-size: 100%;
+  color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 250px 0;
+  font-size: 3em;
 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-    /* font-family:'Courier New', Courier, monospace;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  /* font-family:'Courier New', Courier, monospace;
     display:flex;
     align-items:center;
     justify-content:center;
     height:100vh;
     background-color:#151b29; */
 }
-.hello{
-    /* position: absolute;
+.hello {
+  /* position: absolute;
     left: 50%;
     top: 50%;
     margin-left: -135px;
@@ -54,164 +54,157 @@
     color: rgb(182, 87, 87);
     font-size:xx-large; 
     display:flex; */
-     font-family:'Courier New', Courier, monospace;
-    display:flex;
-    align-items:center;
-    align-content: center;
-    justify-content:center;
-    height:100vh;
-    background-color:#151b29;
-
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #151b29;
 }
-.description{
-    position: absolute;
-    left: 47%;
-    top: 50%;
-    margin-left: -135px;
-    /* margin-top: -50px; */
-    font-size: 50px;
-    font-weight: bold;
-    color: #feffdf;
-    font-size:small; 
-    text-align:left
-} 
-
-   
-
-
- .intro{
-    justify-content: flex-end;
-    align-items: center;
- }
-.education{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1.5rem;
-    flex-wrap:wrap;
-    padding-bottom: 3rem;
-    
-}
-.ed{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-.college{
-    text-align: left;
-    border: 2px;
-    line-height: 2rem;
-}
-.college img{
-    height: 30%;
-}
-.school img{
-    height: 30%;
-}
-.school{
-    line-height: 2rem;
-    text-align: left;
-}
-.college,.school{
-    box-shadow: rgba(193, 186, 186, 0.24) 0px 3px 8px;
-    transition: box-shadow 0.3s ease-in-out;
-    background-color: #f7cac9;
-    padding: 1.3rem;
-    
-}
-.school:hover, .college:hover{
-
-        box-shadow: 0 0.8rem 0.7rem rgba(221, 52, 52, 0.3);
-}
-.footer{
-    height: 250px;
-    /* background-color: #515E63; */
-    background-color: #e0876a;
-;
-    text-align: center;
-    color: white;
-}
-.footer img{
-    height: 20px;
+.description {
+  position: absolute;
+  left: 47%;
+  top: 50%;
+  margin-left: -135px;
+  /* margin-top: -50px; */
+  font-size: 50px;
+  font-weight: bold;
+  color: #feffdf;
+  font-size: small;
+  text-align: left;
 }
 
-.contact-me{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
+.intro {
+  justify-content: flex-end;
+  align-items: center;
 }
-.links-one{
-   padding: 50px;
-   color: white;
+.education {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+  padding-bottom: 3rem;
 }
-.links-one:hover{
-    color: #000000;
+.ed {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
-.icons{
-    height: 10px;
-    padding: 10px;
-    color: rgb(193, 39, 39);
+.college {
+  text-align: left;
+  border: 2px;
+  line-height: 2rem;
 }
-.icons:hover{
-    color: #000000;
+.college img {
+  height: 30%;
+}
+.school img {
+  height: 30%;
+}
+.school {
+  line-height: 2rem;
+  text-align: left;
+}
+.college,
+.school {
+  box-shadow: rgba(193, 186, 186, 0.24) 0px 3px 8px;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: #f7cac9;
+  padding: 1.3rem;
+}
+.school:hover,
+.college:hover {
+  box-shadow: 0 0.8rem 0.7rem rgba(221, 52, 52, 0.3);
+}
+.footer {
+  height: 250px;
+  /* background-color: #515E63; */
+  background-color: #e0876a;
+  text-align: center;
+  color: white;
+}
+.footer img {
+  height: 20px;
+}
+
+.contact-me {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.links-one {
+  padding: 50px;
+  color: white;
+}
+.links-one:hover {
+  color: #000000;
+}
+.icons {
+  height: 10px;
+  padding: 10px;
+  color: rgb(193, 39, 39);
+}
+.icons:hover {
+  color: #000000;
 }
 .header-icons {
-    display: flex;
-    justify-content: center;
-    text-align: center
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .down,
 .header-icons .icon {
-    color: rgb(184, 58, 58);
-    text-align: center
+  color: rgb(184, 58, 58);
+  text-align: center;
 }
 
 .header-icons .icon {
-    height: 20px;
-    padding: 10px;
-    border-radius: 50%;
-    border: 2px solid rgb(249, 124, 124);
-    transition: all .7s;
-    width: 20px;
-    font-size: 20px;
-    margin: 5px
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(249, 124, 124);
+  transition: all 0.7s;
+  width: 20px;
+  font-size: 20px;
+  margin: 5px;
 }
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #1488CC;
-    background: rgb(122, 30, 30)
+  color: #1488cc;
+  background: rgb(122, 30, 30);
 }
 
-@media only screen and (min-width:550px) {
-    .header-icons .icon {
-        width: 35px;
-        height: 35px;
-        font-size: 35px
-    }
+@media only screen and (min-width: 550px) {
+  .header-icons .icon {
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+  }
 }
 .tech {
-    margin: 10px;
-    display:flex;
+  margin: 10px;
+  display: flex;
 }
 
 .user {
-    text-align: center;
-    font-size: 100px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  text-align: center;
+  font-size: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.logo{
-    max-width: 2em;
-    max-height: 2em;
-    
+.logo {
+  max-width: 2em;
+  max-height: 2em;
 }
-.cp{
-    font-size:medium;
+.cp {
+  font-size: medium;
 }
 
 /* .abp{
@@ -221,33 +214,36 @@
 } */
 
 #pic1 {
-    max-width: 70%;
-    max-height: 70%;
-    border-radius: 30%;
-    margin-top: 3em;
-    border-radius: 50% ;
-    
-    /* padding: auto; */
-  }
-  
-  .intro1 {
-    margin-top: 6em;
-    /* margin-bottom: 3em; */
-    
-  }
+  max-width: 70%;
+  max-height: 70%;
+  border-radius: 30%;
+  margin-top: 3em;
+  border-radius: 50%;
 
-  @media (max-width: 380px){
-     .ll{
-        margin-top: 4em;
-     }
+  /* padding: auto; */
+}
+
+.intro1 {
+  margin-top: 6em;
+  /* margin-bottom: 3em; */
+}
+
+@media (max-width: 380px) {
+  .ll {
+    margin-top: 4em;
   }
-  @media (max-width: 380px){
-    .ll{
-       margin-top: 4em;
-    }
- }
- @media (max-width: 1200px){
-    .ll{
-       margin-top: 6em;
-    }
- }
+}
+@media (max-width: 380px) {
+  .ll {
+    margin-top: 4em;
+  }
+}
+@media (max-width: 1200px) {
+  .ll {
+    margin-top: 6em;
+  }
+}
+
+.robo-img {
+  border: 4px solid blue;
+}
