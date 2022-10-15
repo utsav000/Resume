@@ -3,6 +3,10 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+.hello{
+
+    margin-top: 0px;
+}
 .navbar-custom{
     background-color: #515E6300;
     color: white;
@@ -67,6 +71,7 @@
     position: absolute;
     left: 47%;
     top: 50%;
+    margin-top: 140px;
     margin-left: -135px;
     /* margin-top: -50px; */
     font-size: 50px;
