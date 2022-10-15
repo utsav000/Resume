@@ -145,15 +145,24 @@
    color: white;
 }
 .links-one:hover{
-    color: #000000;
+    color: #00ff0d;
 }
 .icons{
     height: 10px;
     padding: 10px;
     color: rgb(193, 39, 39);
 }
+.icon
+{
+    color: rgb(193, 39, 39);
+}
+
+.icon:hover
+{
+    color: #40ff00;
+}
 .icons:hover{
-    color: #000000;
+    color: #40ff00;
 }
 .header-icons {
     display: flex;
